@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A semantic, accessible developer portfolio page.">
+    <title>Developer Portfolio | Exercise 1</title>
+  </head>
+  <body>
+    <a href="#main-content">Skip to main content</a>
+
+    <header>
+      <p>Developer Portfolio</p>
+      <h1>Building thoughtful web experiences</h1>
+    </header>
+
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-content" tabindex="-1">
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>I build accessible, responsive web applications and enjoy turning clear requirements into reliable interfaces.</p>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <article aria-labelledby="project-one-heading">
+          <h3 id="project-one-heading">Drone Monitoring Platform</h3>
+          <p>A university project for monitoring a drone fleet, missions, and flight operations.</p>
+        </article>
+        <article aria-labelledby="project-two-heading">
+          <h3 id="project-two-heading">Resilient Component Architecture</h3>
+          <p>A small web interface designed to handle loading, live, empty, and error states.</p>
+        </article>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>View my work on <a href="https://github.com/votanvu2006">GitHub</a>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Web Application Development · Lab 1</p>
+    </footer>
+  </body>
+</html>
